@@ -10,7 +10,7 @@ const { checkForAuthentication, restrictTo} = require('./middlewares/auth')
 const app = express();
 const PORT = 8001;
 
-connectToMongoDB('mongodb+srv://akshesh:Your_Password@cluster0.wi6ht.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+connectToMongoDB('mongodb+srv://akshesh:Your_Passwor@cluster0.wi6ht.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 .then(() => console.log('mongoDB connected'))
 
 app.set('view engine', 'ejs');
